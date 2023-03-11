@@ -9,7 +9,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 10px;
-background: #ff8109;
+background: #DE3E3E;
 border-radius: 20px;
 box-shadow: 0px 4px 5px 0px #EDEEEF;
 `;
@@ -34,4 +34,5 @@ font-weight: bold;
 text-align: center;
 color: black;
 text-decoration:none;
+
 `;

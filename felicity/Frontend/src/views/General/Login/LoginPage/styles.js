@@ -60,7 +60,7 @@ export const SubTitle = styled.div`
     font-size: 13px;
     margin-top: 25px;
     margin-bottom: 10px;
-    color: #002D84;
+    color: #0B0F99;
 `;
 
 
@@ -78,6 +78,7 @@ export const CheckboxWrapper = styled.div`
     display: flex;
     flex-direction: row;
     padding-left: 7px;
+    
 `;
 
 export const RadioButton =  styled.input.attrs(({ type }) => ({
@@ -92,7 +93,7 @@ export const Label = styled.div`
     font-weight: 600;
     font-size: 12px;
     margin-left: 13px;
-    margin-bottom: 3px;
+    
 `;
 
 export const LabelRecursive = styled.div`
@@ -117,6 +118,7 @@ export const LoginInput =  styled.input.attrs(({ type }) => ({
     font-weight: normal;
     color: black;
     background-color: #F0F0F0;
+    
 `;
 
 
@@ -160,7 +162,7 @@ export const UrlLink = styled.a`
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    color: #0075FF;
+    color: #0B0F99;
     text-decoration: none;
 `;
 
@@ -175,9 +177,9 @@ export const Checkbox =  styled.input.attrs(({ type }) => ({
   type:  type || "checkbox"
 }))`
 
-  border:1px solid #0075FF;
+  border:1px solid #0B0F99;
   &:active {
-    border-color: #0075FF;
+    border-color: #0B0F99;
   }
 `;
 
@@ -195,9 +197,8 @@ export const SubmitButton = styled.button`
     width: 100px;
     height: 35px;
     align-self: center;
-    background: linear-gradient(99.09deg, #010F98 0%, #6CBEDC 100%);
+    background: #0B0F99;
     border-radius: 20px;
-    padding-top: 5px;
     border: 0;
     outline: 0;
     color: white;
@@ -219,12 +220,11 @@ export const RoleButton = styled.button`
     width: 300px;
     height: 50px;
     align-self: center;
-    background: #F0F0F0;
+    background: #0B0F99;
     border-radius: 10px;
-    padding-top: 5px;
     border: 0;
     outline: 0;
-    color: black;
+    color: white;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -244,7 +244,6 @@ export const LangButton = styled.button`
     align-self: right;
     background: #F0F0F0;
     border-radius: 10px;
-    padding-top: 5px;
     border: 0;
     outline: 0;
     color: white;
@@ -252,7 +251,7 @@ export const LangButton = styled.button`
     font-weight: bold;
     font-size: 15px;
     text-decoration:none;
-    background: #6CBEDC;
+    background: #0B0F99;
 
 
 `;
@@ -355,7 +354,7 @@ export const SignupLink = styled(Link)`
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    color: rgb(255,0,0);
+    color: #DE3E3E;
 `;
 
 export const Icon = styled.div`

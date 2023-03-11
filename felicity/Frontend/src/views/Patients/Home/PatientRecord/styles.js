@@ -31,7 +31,7 @@ text-align:left;
 export const ViewAll = styled.div`
 flex:1;
 margin-top: 5px;
-color: #ff8011;
+color: #0B0F99;
 font-weight:bold;
 text-align:right;
 `;

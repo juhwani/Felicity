@@ -64,8 +64,8 @@ function LoginPage({ patientL, doctorL }) {
                 {role && <SubTitle>Need to login as a doctor?</SubTitle>}
                 {!role && <SubTitle>Need to login as a patient?</SubTitle>}
 
-                {role && <RoleButton onClick={(e) => setRole(false)}> Sign in as a Doctor </RoleButton>}
-                {!role && <RoleButton onClick={(e) => setRole(true)}> Sign in as a Patient </RoleButton>}
+                {role && <RoleButton onClick={(e) => setRole(false)}> Sign in as Doctor </RoleButton>}
+                {!role && <RoleButton onClick={(e) => setRole(true)}> Sign in as Patient </RoleButton>}
                 
             </LoginSubContainer>
         {id > 0 && <LoginRedirect isRole={role}/>}

@@ -108,7 +108,7 @@ font-weight: 1000;
 color: #4A5568;
 white-space: nowrap;
 cursor:pointer;
-&:hover { color: #0457f9; }
+&:hover { color: #0B0F99; }
 &:active { color: #004FEB; }
 `;
 
@@ -119,10 +119,10 @@ margin-top: 1.3%;
 margin-left: 25px;
 margin-right: 25px;
 font-weight: 1000;
-color: #0457f9;
+color: #0B0F99;;
 white-space: nowrap;
 cursor:pointer;
-&:hover { color: #0457f9; }
+&:hover { color: #0B0F99; }
 &:active { color: #004FEB; }
 `;
 
@@ -131,31 +131,33 @@ export const NewestLabel = styled.p`
   color: #a0aec0;
   margin-right: 10px;
   cursor:pointer;
+  &:hover { color: #0B0F99; }
+  &:active { color: #0B0F99; }
 `;
 
 export const OldestLabel = styled.p`
 font-weight: bold;
 color: #a0aec0;
 cursor:pointer;
-&:hover { color: #0457f9; }
-&:active { color: #004FEB; }
+&:hover { color: #0B0F99; }
+&:active { color: #0B0F99; }
 `;
 
 export const NewestLabelSelected = styled.p`
   font-weight: bold;
-  color: #0457f9;
+  color: #0B0F99;
   margin-right: 10px;
   cursor:pointer;
-  &:hover { color: #0457f9; }
-  &:active { color: #004FEB; }
+  &:hover { color: #0B0F99; }
+  &:active { color: #0B0F99; }
 `;
 
 export const OldestLabelSelected = styled.p`
   font-weight: bold;
-  color: #0457f9;
+  color: #0B0F99;
   cursor:pointer;
-  &:hover { color: #0457f9; }
-  &:active { color: #004FEB; }
+  &:hover { color: #0B0F99; }
+  &:active { color: #0B0F99; }
 `;
 
 export const DateLabel = styled.p`
@@ -189,7 +191,7 @@ padding-left: 15px;
 padding-right: 15px;
 margin-right: 10px;
 font-weight: bold;
-color: #0047D2;
+color: #0B0F99;
 height:35px;
 `;
 export const Title = styled.p`
@@ -285,7 +287,7 @@ export const SearchContent = styled.input.attrs({
 export const WriteButton = styled(Link)`
     flex:1;
     height: 40px;
-    background-color: #0075FF;
+    background-color: #0B0F99;
     border-radius: 15px;
     padding: 7px 30px 0px 30px;
     color: white;
@@ -295,11 +297,11 @@ export const WriteButton = styled(Link)`
     white-space: nowrap;
     &:hover {
       color: white;
-      background-color: #3D7EFF;
+      background-color: #0B0F99;
     }
     &:active {
       color: white;
-      background-color: #004FEB;
+      background-color: #0B0F99;
     }
 `;
 
@@ -352,35 +354,35 @@ export const PageNumberLabel = styled.p`
   font-weight: bold;
   border-radius: 10px;
   color:white;
-  background-color: #0075FF;
+  background-color: #0B0F99;
   padding:5px 13px 5px 13px;
   margin-left:10px;
   margin-right:10px;
   cursor:pointer;
   &:hover {
     color: white;
-    background-color: #3D7EFF;
+    background-color: #0B0F99;
   }
   &:active {
     color: white;
-    background-color: #004FEB;
+    background-color: #0B0F99;
   }
 `;
 
 export const PageNumber = styled.p`
   font-weight: bold;
   border-radius: 10px;
-  color:#718096;
+  color:#718096;  
   padding:5px 13px 5px 13px;
   margin-left:10px;
   margin-right:10px;
   cursor:pointer;
   &:hover {
     color: white;
-    background-color: #3D7EFF;
+    background-color: #0B0F99;
   }
   &:active {
     color: white;
-    background-color: #004FEB;
+    background-color: #0B0F99;
   }
 `;

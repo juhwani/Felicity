@@ -52,10 +52,12 @@ export const CancelButton = styled(Link)`
 flex:1;
 width: 10%;
 height: 50%
-color: white;
+color: #0B0F99;
 border-radius: 10px;
 font-weight:bold;
 text-decoration:none;
+color: #0B0F99;
+
 `;
 
 export const FstColumn = styled.div`
@@ -94,7 +96,7 @@ export const Date = styled.div`
   margin: 0px;
   margin-right: 15px;
   font-weight: bold;
-  color: #0075FF;
+  color: #0B0F99;
 `;
 
 export const TimeEmail = styled.p`

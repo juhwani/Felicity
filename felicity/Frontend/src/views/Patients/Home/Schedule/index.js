@@ -64,7 +64,7 @@ const Schedule = ({ startCall, schedule_data, symptoms }) => {
                                 <Date>{data.reserved_date}</Date>
                                 <TimeEmail>{data.reserved_time}</TimeEmail>
                                 <DoctorEmail>Doctor: {data.firstname} {data.lastname}</DoctorEmail>
-                                <CancelButton onClick ={() => {Axios.post(`${API_URL}/cancel-reservation`, { "id": data.rid, "cancelUser": 0 }); data.canceled = 1}}>Cancel</CancelButton>
+                                <CancelButton onClick ={() => {Axios.post(`${API_URL}/cancel-reservation`, { "id": data.rid, "cancelUser": 0 }); data.canceled = 1}} >Cancel</CancelButton>
                             </AppointmentContainer>}
                     </>
                 ))}

@@ -108,7 +108,7 @@ export const AvailBubble = styled.button`
 height: 70%;
 min-width:150px;
 text-align:center;
-background-color: #0075ff;
+background-color: #0B0F99;;
 border-radius: 8px;
 padding-top: 2px;
 padding-bottom: 2px;

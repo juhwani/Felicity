@@ -117,7 +117,7 @@ export const IconArea = styled.div`
 `;
 
 export const ReplyBtn = styled(Link)`
-  color: #FF800B;
+  color: #0B0F99;
   font-weight: bold;
 `;
 

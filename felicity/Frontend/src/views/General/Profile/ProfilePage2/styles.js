@@ -34,34 +34,37 @@ border-radius: 50px;
 `
 
 export const Language = styled.div`
-width: 100%;
-height: 3%;
-display: flex;
-flex-direction: column;
-align-items: center;
+width: 100px;
+height: 30px;
+`
+export const LanguageContainer = styled.div`
+width: 100px;
+height: 65px;
+position: absolute;
+margin-top: 720px;
+margin-left: 220px;
+
 `
 
 export const LangLabel = styled.div`
+margin-bottom: 5px;
 display: flex;
 width: 100px;
 height: 30px;
 align-self: center;
-background: blue;
+background: #0B0F99;
 border-radius: 20px;
-margin-top: 100%;
 border: 0;
 outline: 0;
 color: white;
 font-style: normal;
 font-weight: bold;
-font-size: 100%;
+font-size: 90%;
 font-family: Roboto;
 text-decoration:none;
-
-
 align-items: center;
 justify-content: center;
-margin-bottom: 1%;
+font-size: 18px;
 `
 
 
@@ -125,7 +128,7 @@ export const TimeButton = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FF800B;
+    background-color: #DE3E3E;
     border-radius: 20px;
     border: 0;
     outline: 0;
@@ -136,11 +139,11 @@ export const TimeButton = styled.div`
     font-size: 100%;
     &:hover {
       color: white;
-      background-color: #FF902A  ;
+      background-color: #FF902A;
     }
     &:active {
       color: white;
-      background-color: #E97204;
+      background-color: #FF902A;
     }
     
 `;

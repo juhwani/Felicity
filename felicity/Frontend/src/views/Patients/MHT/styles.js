@@ -36,7 +36,7 @@ export const Title = styled.div`
     font-weight: bold;
     font-size: 30px;
     margin-top: 40px;
-    color: #002D84;
+    color: #0B0F99;
 `;
 
 export const SubTitle = styled.div`

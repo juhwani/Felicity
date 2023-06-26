@@ -116,16 +116,16 @@ export const Undo = styled(Link)`
     width: 13%;
     height: 6%;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration:none;
-    color:black;
-    background: lightgray;
+    color: white;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    color: black;
     font-weight: bold; 
     margin-left: auto;
+    font-family: Roboto;
+    background-color: #0075ff;
    
 
 `;
